@@ -1,25 +1,22 @@
 class Employee{
     #name;
     #baseSalary;
-
     setName(val){
         this.#name = val;
     }
-    setBaseSalary(val){
-        this.#baseSalary = val;   
+    setBasaSalary(val){
+    this.#baseSalary = val;
     }
     getName(){
         return this.#name;
     }
     getSalary(){
-        let bunos = 1000;
-        return this.#baseSalary + bunos;    
+        let bonus = 1000;
+        return this.#baseSalary + bonus;
     }
 }
-
- var emp = new Employee();
-
- emp.setName("Dustin");
- emp.setBaseSalary(100);
- console.log(emp.getName());
- console.log(emp.getSalary());
+var emp = new Employee();
+emp.setName("Dustin");
+mp.setBaseSalary(100);
+console.log(emp.getName());
+console.log(emp.getSalary());
